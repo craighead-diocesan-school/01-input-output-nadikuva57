@@ -7,13 +7,9 @@ function maoriMihi() {
   alert('This program will help you build a basic mihi.')
   alert("First, you'll be asked a series of questions, then your mihi will be ready.")
 
-  alert('What is your name?')
-  let name = promt()
-
-  let maunga = promt('What is your maunga?')
-
-  let awa = promt('what is your awa?')
-
+  let name = prompt('What is your name?')
+  let maunga = prompt('What is your maunga?')
+  let awa = prompt('what is your awa?')
   let home = prompt('What is your home town?')
 
 
